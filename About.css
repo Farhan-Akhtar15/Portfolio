@@ -12,7 +12,7 @@ body{
 
 nav{
     height:55px;
-    width:100%;
+    width:100vw;
     background-color:#131920 ;
     padding: 4px 40px;
     box-sizing: border-box;
@@ -20,7 +20,7 @@ nav{
 
 .navbar{
      height:55px;
-    width:100%;
+    width:100vw;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -379,6 +379,7 @@ nav{
     align-items: center;
     flex-direction: column;
     position: relative;
+    gap:20px;
 }
 
 .beyondcode span{
@@ -408,7 +409,7 @@ nav{
 
 .footer-sec{
     height:180px;
-    width:100%;
+    width:100vw;
     background-color:#131920;
     display:flex;
     align-items:center;
